@@ -6,7 +6,7 @@
 
 <ol>
   <li> Урок 10 - Module introduction
-    <ol>
+    <ol type="1">
       <li>Добавлена страница users в директории pages</li>
     </ol>
   </li>
