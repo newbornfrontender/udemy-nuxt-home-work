@@ -1,0 +1,9 @@
+{
+  "name": "udemy-nuxt-home-work",
+  "version": "1.0.0",
+  "description": "Домашняя работа по Nuxt от Udemy",
+  "main": "index.js",
+  "repository": "https://github.com/newbornfrontender/udemy-nuxt-home-work.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
