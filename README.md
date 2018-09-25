@@ -2,7 +2,7 @@
 
 Домашняя работа по Nuxt от Udemy
 
-## Глава 2 - Pages, routing, views
+<h2 align="center">Глава 2 - Pages, routing, views</h2>
 
 <ol>
   <li> Урок 10 - Module introduction
