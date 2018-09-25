@@ -1,3 +1,12 @@
 <template>
-  <h1>A single user</h1>
+  <!-- $route.params.id  указывает на _id, если компонент будет иметь -->
+  <!-- другое имя, то вместо id будет это имя -->
+
+  <h1>A single user, with ID: {{ $route.params.id }}</h1>
 </template>
+
+<script>
+  export default {
+    name: 'users-id',
+  };
+</script>
