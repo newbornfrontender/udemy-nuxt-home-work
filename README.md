@@ -16,7 +16,7 @@
 1. Добавлены динамические страницы в users (pages/users/_id/index.vue)
 
 ```html
-  pages/users/_id/index.vue
+  <!-- pages/users/_id/index.vue -->
 
   <template>
     <!-- $route.params.id  указывает на _id, если компонент будет иметь -->
