@@ -6,14 +6,10 @@
 
 <script>
   export default {
+    name: 'index',
+
     data: () => ({
       title: 'Title',
     }),
   };
 </script>
-
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
