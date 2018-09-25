@@ -4,5 +4,6 @@
 
 <h2 align="center">Глава 2 - Pages, routing, views</h2>
 
-1. Урок 10 - Module introduction
-&nbsp;&nbsp;1. Добавлена страница users в директории pages
+### Урок 10 - Module introduction
+
+1. Добавлена страница users в директории pages
