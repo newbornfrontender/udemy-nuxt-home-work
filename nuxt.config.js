@@ -24,8 +24,7 @@ export default {
         browsers: 'last 2 versions',
 
         autoprefixer: {
-          // grid: process.env.NODE_ENV === 'production' ? true : false,
-          grid: false,
+          grid: process.env.NODE_ENV === 'development' ? false : true,
         },
       },
     },
