@@ -4,10 +4,5 @@
 
 <h2 align="center">Глава 2 - Pages, routing, views</h2>
 
-<ol>
-  <li> Урок 10 - Module introduction
-    <ol type="1">
-      <li>Добавлена страница users в директории pages</li>
-    </ol>
-  </li>
-</ol>
+1. Урок 10 - Module introduction
+  1. Добавлена страница users в директории pages
