@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/newbornfrontender/udemy-nuxt-home-work.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  }
 }
