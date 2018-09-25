@@ -1,4 +1,4 @@
-<h1 text-align="center">Udemy Nuxt Home Work</h1>
+<h1 align="center">Udemy Nuxt Home Work</h1>
 
 Домашняя работа по Nuxt от Udemy
 
