@@ -31,7 +31,7 @@ export default {
 
         autoprefixer: {
           // grid: process.env.NODE_ENV === 'production' ? true : false,
-          grid: true,
+          grid: false,
         },
       },
     },
