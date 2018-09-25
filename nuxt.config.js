@@ -16,12 +16,6 @@ export default {
     linkExactActiveClass: 'route-link--active-exact',
   },
 
-  loaders: {
-    vue: {
-      shadowMode: true,
-    },
-  },
-
   build: {
     postcss: {
       preset: {
