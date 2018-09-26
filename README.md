@@ -97,6 +97,8 @@
 
 ### Урок 16 - Layouts, pages. Components - theory
 
+Теория про макеты в Nuxt
+
 ### Урок 17 - Adding a new layout
 
 ### Урок 18 - Adding a default error page
