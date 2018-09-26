@@ -1,13 +1,11 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <section>
+    <nuxt-link to="/users">Users</nuxt-link>
+  </section>
 </template>
 
 <script>
   export default {
     name: 'index',
-
-    data: () => ({
-      msg: 'Hello world!',
-    }),
   };
 </script>
