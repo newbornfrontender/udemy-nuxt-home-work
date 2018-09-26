@@ -83,6 +83,18 @@
 
 ### Урок 15 - Creating nested routes
 
+1. Создан users.vue в pages и тем самым добавлен вложенный маршрут для данной страницы. Перенесен весь код из pages/users/index.vue сюда
+
+```html
+  <!-- pages/users.vue -->
+
+  <div>
+    <!-- Код из pages/users/index.vue -->
+
+    <nuxt-child></nuxt-child>
+  </div>
+```
+
 ### Урок 16 - Layouts, pages. Components - theory
 
 ### Урок 17 - Adding a new layout
