@@ -32,7 +32,7 @@
 1. Добавлен nuxt-link для навигации по сайту в режиме SPA
 
 ```html
-  pages/index.vue
+  <!-- pages/index.vue -->
 
   <!-- Вместо router-link в Nuxt используется nuxt-link. Единственное -->
   <!-- отличие между ними - название -->
@@ -42,6 +42,8 @@
 2. Добавлен input с возможностью ввода динамических маршрутов и перехода по ним
 
 ```html
+  <!-- pages/users/index.vue -->
+
   <input
     type="text"
     v-model="userId"
@@ -51,6 +53,8 @@
 ```
 
 ```js
+  // pages/users/index.vue
+
   data: () => ({
     userId: '',
   }),
@@ -63,6 +67,16 @@
 ```
 
 ### Урок 14 - Validating parameters
+
+1. Добавлена валидация только для пользователя с ником "admin". Для остальных имен будет - 404
+
+```js
+  // pages/users/_id/index.vue
+
+  validate (data) {
+    return data.params.id === 'admin';
+  },
+```
 
 ### Урок 15 - Creating nested routes
 
