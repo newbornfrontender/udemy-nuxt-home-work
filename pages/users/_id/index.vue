@@ -7,5 +7,9 @@
 <script>
   export default {
     name: 'users-id',
+
+    validate (data) {
+      return data.params.id === 'admin';
+    },
   };
 </script>
