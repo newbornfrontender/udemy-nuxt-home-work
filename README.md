@@ -74,6 +74,9 @@
   // pages/users/_id/index.vue
 
   validate (data) {
+    // Валидирует только численные значения
+    // return /^\d+$/.test(data.params.id);
+
     return data.params.id === 'admin';
   },
 ```
