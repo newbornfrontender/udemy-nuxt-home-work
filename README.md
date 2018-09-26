@@ -7,11 +7,11 @@
 
 <h2 align="center">Глава 2 - Pages, routing, views</h2>
 
-### Урок 10 - Module introduction
+### Урок 11 - Module introduction
 
 1. Добавлена страница users (pages/users/index.vue)
 
-### Урок 11 - From folders to routes
+### Урок 12 - From folders to routes
 
 1. Добавлены динамические страницы в users (pages/users/_id/index.vue)
 
@@ -23,3 +23,6 @@
 
   <h1>A single user, with ID: {{ $route.params.id }}</h1>
 ```
+
+<!-- Глава 3 -->
+<!-------------------------------------------------------------------------->
