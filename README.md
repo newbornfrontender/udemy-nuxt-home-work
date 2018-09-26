@@ -28,5 +28,23 @@
   <h1>A single user, with ID: {{ $route.params.id }}</h1>
 ```
 
+### Урок 13 - Adding links. Navigating around
+
+### Урок 14 - Validating parameters
+
+### Урок 15 - Creating nested routes
+
+### Урок 16 - Layouts, pages. Components - theory
+
+### Урок 17 - Adding a new layout
+
+### Урок 18 - Adding a default error page
+
+### Урок 19 - Working with normal components
+
+### Урок 20 - Styling Nuxt apps
+
+### Урок 21 - Wrap up
+
 <!-- Глава 3 -->
 <!-------------------------------------------------------------------------->
