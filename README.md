@@ -7,11 +7,15 @@
 
 <h2 align="center">Глава 2 - Pages, routing, views</h2>
 
-### Урок 11 - Module introduction
+### Урок 10 - Module introduction
+
+Введение в модульную структуру Nuxt
+
+### Урок 11 - From folders to routes
 
 1. Добавлена страница users (pages/users/index.vue)
 
-### Урок 12 - From folders to routes
+### Урок 12 - Creating a route with a dynamic path
 
 1. Добавлены динамические страницы в users (pages/users/_id/index.vue)
 
