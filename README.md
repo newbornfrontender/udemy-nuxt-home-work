@@ -29,6 +29,16 @@
 
 ### Урок 13 - Adding links. Navigating around
 
+1. Добавил nuxt-link для навигации по сайту в режиме SPA
+
+```html
+  pages/index.vue
+
+  <!-- Вместо router-link в Nuxt используется nuxt-link. Единственное -->
+  <!-- отличие между ними - название -->
+  <nuxt-link to="/users">Users</nuxt-link>
+```
+
 ### Урок 14 - Validating parameters
 
 ### Урок 15 - Creating nested routes
