@@ -29,7 +29,7 @@
 
 ### Урок 13 - Adding links. Navigating around
 
-1. Добавил nuxt-link для навигации по сайту в режиме SPA
+1. Добавлен nuxt-link для навигации по сайту в режиме SPA
 
 ```html
   pages/index.vue
@@ -37,6 +37,29 @@
   <!-- Вместо router-link в Nuxt используется nuxt-link. Единственное -->
   <!-- отличие между ними - название -->
   <nuxt-link to="/users">Users</nuxt-link>
+```
+
+2. Добавлен input с возможностью ввода динамических маршрутов и перехода по ним
+
+```html
+  <input
+    type="text"
+    v-model="userId"
+  >
+
+  <button v-on:click="onLoadUsers">Load User</button>
+```
+
+```js
+  data: () => ({
+    userId: '',
+  }),
+
+  methods: {
+    onLoadUsers () {
+      this.$router.push(`/users/${this.userId}`);
+    },
+  },
 ```
 
 ### Урок 14 - Validating parameters
