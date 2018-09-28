@@ -1,13 +1,13 @@
 <template>
   <div>
     <input
-      type="text"
       v-model="userId"
+      type="text"
     >
 
     <button v-on:click="onLoadUsers">Load User</button>
 
-    <nuxt-child></nuxt-child>
+    <nuxt-child />
   </div>
 </template>
 
