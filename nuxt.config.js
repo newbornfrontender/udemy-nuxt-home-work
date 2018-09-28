@@ -12,21 +12,30 @@ export default {
   },
 
   router: {
-    linkActiveClass: 'route-link--active',
-    linkExactActiveClass: 'route-link--active-exact',
+    linkActiveClass: 'link-active',
+    linkExactActiveClass: 'link-exact',
   },
 
   build: {
     postcss: {
       preset: {
-        stage: 0,
-
-        browsers: 'last 2 versions',
+        stage: 1,
 
         autoprefixer: {
           grid: process.env.NODE_ENV === 'development' ? false : true,
         },
       },
+    },
+
+    extend (config, ctx) {
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(jsx?|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /node_modules/,
+        });
+      };
     },
   },
 
