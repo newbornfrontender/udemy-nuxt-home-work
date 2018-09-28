@@ -21,12 +21,21 @@ export default {
       preset: {
         stage: 0,
 
-        browsers: 'last 2 versions',
-
         autoprefixer: {
           grid: process.env.NODE_ENV === 'development' ? false : true,
         },
       },
+    },
+
+    extend (config, ctx) {
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(jsx?|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /node_modules/,
+        });
+      };
     },
   },
 
