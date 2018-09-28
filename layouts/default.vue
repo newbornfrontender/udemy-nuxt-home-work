@@ -1,6 +1,8 @@
 <template>
   <section>
-    <nuxt />
+    <main>
+      <nuxt />
+    </main>
   </section>
 </template>
 
