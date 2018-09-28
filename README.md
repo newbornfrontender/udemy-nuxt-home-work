@@ -101,6 +101,17 @@
 
 ### Урок 17 - Adding a new layout
 
+1. Добавлен дефолтный макет
+2. Добавлен макет для пользователей и установлен в pages/users.vue
+
+```js
+  // pages/users.vue
+
+  export default {
+    layout: 'users',
+  };
+```
+
 ### Урок 18 - Adding a default error page
 
 ### Урок 19 - Working with normal components
