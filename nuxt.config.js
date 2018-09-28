@@ -12,8 +12,8 @@ export default {
   },
 
   router: {
-    linkActiveClass: 'route-link--active',
-    linkExactActiveClass: 'route-link--active-exact',
+    linkActiveClass: 'link-active',
+    linkExactActiveClass: 'link-exact',
   },
 
   build: {
