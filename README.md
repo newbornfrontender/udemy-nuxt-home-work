@@ -118,6 +118,8 @@
 
 ### Урок 19 - Working with normal components
 
+1. Создан компонент MainHeader и подключен в index и users страницах
+
 ### Урок 20 - Styling Nuxt apps
 
 ### Урок 21 - Wrap up
