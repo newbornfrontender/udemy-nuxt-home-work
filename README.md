@@ -114,6 +114,8 @@
 
 ### Урок 18 - Adding a default error page
 
+1. Добавлен простой кастомный макет ошибки error.vue, который отображает выводится при ошибках в коде или при ненайденых страницах
+
 ### Урок 19 - Working with normal components
 
 ### Урок 20 - Styling Nuxt apps
