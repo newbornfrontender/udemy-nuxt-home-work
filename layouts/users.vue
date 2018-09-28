@@ -1,6 +1,8 @@
 <template>
   <section>
-    <header>USERS SECTION</header>
+    <main-header />
+
+    <div>USERS SECTION</div>
 
     <main>
       <nuxt />
@@ -9,7 +11,13 @@
 </template>
 
 <script>
+  import MainHeader from '@/components/MainHeader';
+
   export default {
     name: 'layout-default',
+
+    components: {
+      MainHeader,
+    },
   };
 </script>
