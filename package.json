@@ -10,7 +10,11 @@
     "dev": "cross-env NODE_ENV=development nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "stylelint": "stylelint **/*.{css,vue}",
+    "stylelint:fix": "yarn stylelint --fix",
+    "eslint": "eslint --ext js,jsx,vue .",
+    "eslint:fix": "yarn eslint --fix"
   },
   "dependencies": {
     "nuxt": "^2.0.0"
