@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'users-id',
+    name: 'page-users-id',
 
     validate (data) {
       return data.params.id === 'admin';

@@ -6,6 +6,6 @@
 
 <script>
   export default {
-    name: 'index',
+    name: 'page-index',
   };
 </script>

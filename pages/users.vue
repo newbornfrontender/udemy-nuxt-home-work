@@ -13,7 +13,7 @@
 
 <script>
   export default {
-    name: 'users',
+    name: 'page-users',
 
     data: () => ({
       userId: '',
