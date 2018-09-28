@@ -19,7 +19,7 @@ export default {
   build: {
     postcss: {
       preset: {
-        stage: 0,
+        stage: 1,
 
         autoprefixer: {
           grid: process.env.NODE_ENV === 'development' ? false : true,
