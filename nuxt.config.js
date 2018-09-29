@@ -16,6 +16,8 @@ export default {
     linkExactActiveClass: 'link-exact',
   },
 
+  css: ['~/assets/styles.css'],
+
   build: {
     postcss: {
       preset: {
