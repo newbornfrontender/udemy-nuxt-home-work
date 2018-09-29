@@ -20,6 +20,16 @@
     width: 80%;
     list-style: none;
   }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .link:hover,
+  .link:active {
+    color: white;
+  }
 </style>
 
 <template>
@@ -27,11 +37,17 @@
     <nav class="main-nav">
       <ul class="nav-list">
         <li>
-          <nuxt-link to="/">Home</nuxt-link>
+          <nuxt-link
+            class="link"
+            to="/"
+          >Home</nuxt-link>
         </li>
 
         <li>
-          <nuxt-link to="/users">Users</nuxt-link>
+          <nuxt-link
+            class="link"
+            to="/users"
+          >Users</nuxt-link>
         </li>
       </ul>
     </nav>
