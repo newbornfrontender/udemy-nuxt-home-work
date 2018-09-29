@@ -1,5 +1,11 @@
+<template>
+  <section>
+    <nuxt-link to="/users">Users</nuxt-link>
+  </section>
+</template>
+
 <script>
   export default {
-    name: 'index',
+    name: 'page-index',
   };
 </script>
