@@ -2,6 +2,21 @@
 
 Домашняя работа по Nuxt от Udemy
 
+<!-- Глава 1 -->
+<!-------------------------------------------------------------------------->
+
+<h2 align="center">Глава 1 - Getting Started</h2>
+
+1. Урок 1 - Welcome. Introduction
+2. Урок 2 - What is Nuxt.js
+3. Урок 3 - Understanding server side rendering
+4. Урок 4 - Nuxt vs normal server side rendering
+5. Урок 5 - Creating our first nuxt app
+6. Урок 6 - Understanding the folder structure
+7. Урок 7 - What can we build with Nuxt
+8. Урок 8 - What's inside this course
+9. Урок 9 - How to get the most out of this course
+
 <!-- Глава 2 -->
 <!-------------------------------------------------------------------------->
 
@@ -130,4 +145,21 @@
 Превью сдедующей главы
 
 <!-- Глава 3 -->
+<!-------------------------------------------------------------------------->
+
+1. Урок 22 - Module introduction
+2. Урок 23 - Creating the main sections_(Pages)
+3. Урок 24 - Adding external fonts
+4. Урок 25 - Creating the landing page
+5. Урок 26 - Splitting the page into components
+6. Урок 27 - Adding static assets - the background image
+7. Урок 28 - Adding the header component
+8. Урок 29 - Vue router vs. Nuxt router
+9. Урок 30 - Working on the post page
+10. Урок 31 - Creating an admin section
+11. Урок 32 - Preparing the backend
+12. Урок 33 - Improving the app
+13. Урок 34 - Adding a separate layout to the admin area
+
+<!-- Глава 4 -->
 <!-------------------------------------------------------------------------->
