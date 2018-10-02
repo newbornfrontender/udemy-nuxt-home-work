@@ -16,15 +16,13 @@ export default {
     linkExactActiveClass: 'link-exact',
   },
 
-  css: ['~/assets/styles.css'],
-
   build: {
     postcss: {
       preset: {
-        stage: 1,
+        stage: 0,
 
-        autoprefixer: process.env.NODE_ENV == 'development' ? false : {
-          grid: true,
+        autoprefixer: {
+          grid: process.env.NODE_ENV === 'development' ? false : true,
         },
       },
     },
