@@ -14,6 +14,12 @@ export default {
         content: 'ie=edge',
       },
     ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Open+Sans',
+      },
+    ],
   },
 
   router: {
