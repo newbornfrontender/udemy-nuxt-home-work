@@ -150,7 +150,7 @@
 <h2 align="center">Глава 3 - Pages routing views</h2>
 
 1. Урок 22 - Module introduction
-2. Урок 23 - Creating the main sections_(Pages)
+2. Урок 23 - Creating the main sections (Pages)
 3. Урок 24 - Adding external fonts
 4. Урок 25 - Creating the landing page
 5. Урок 26 - Splitting the page into components
