@@ -62,16 +62,17 @@
     <div
       v-if="show"
       class="sidenav-backdrop"
-      @click="$emit('close')"
-    ></div>
+      v-on:click="$emit('close')"
+    />
 
     <transition name="slide-side">
       <div
         v-if="show"
-        class="sidenav">
+        class="sidenav"
+      >
         <ul
           class="nav-list"
-          @click="$emit('close')"
+          v-on:click="$emit('close')"
         >
           <li class="nav-item"><nuxt-link to="/posts">Blog</nuxt-link></li>
           <li class="nav-item"><nuxt-link to="/about">About</nuxt-link></li>
@@ -84,13 +85,13 @@
 
 <script>
 export default {
-  name: "TheSidenav",
+  name: 'TheSidenav',
 
   props: {
     show: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
