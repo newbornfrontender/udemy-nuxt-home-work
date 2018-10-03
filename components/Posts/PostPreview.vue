@@ -39,18 +39,18 @@ a:active .post-content {
 <template>
   <nuxt-link
     class="post-preview"
-    v-bind:to="`/posts/${ + 1 }`"
+    v-bind:to="`/posts/${id}`"
   >
     <article>
       <div
         class="post-thumbnail"
-        style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&w=1000&q=80');"
+        v-bind:style="{ backgroundImage: `url(${thumbnail})` }"
       />
 
       <div class="post-content">
-        <h1>Post Title 1</h1>
+        <h1>{{ title }}</h1>
 
-        <p>Preview Text 1</p>
+        <p>{{ previewText }}</p>
       </div>
     </article>
   </nuxt-link>
@@ -59,5 +59,27 @@ a:active .post-content {
 <script>
 export default {
   name: 'PostPreview',
+
+  props: {
+    id: {
+      type: String,
+      required: true,
+    },
+
+    title: {
+      type: String,
+      required: true,
+    },
+
+    previewText: {
+      type: String,
+      required: true,
+    },
+
+    thumbnail: {
+      type: String,
+      required: true,
+    },
+  },
 };
 </script>
