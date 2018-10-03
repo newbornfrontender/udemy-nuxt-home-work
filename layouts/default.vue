@@ -12,7 +12,7 @@ export default {
 
 <style>
 html {
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: Open Sans, sans-serif;
 }
 
 body {
