@@ -1,14 +1,3 @@
-<template>
-  <div
-    class="drawer-toggle"
-    role="button"
-    @click="$emit('toggle')">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-</template>
-
 <style scoped>
 .drawer-toggle {
   display: flex;
@@ -31,3 +20,15 @@
   background-color: white;
 }
 </style>
+
+<template>
+  <div
+    class="drawer-toggle"
+    role="button"
+    @click="$emit('toggle')"
+  >
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</template>
