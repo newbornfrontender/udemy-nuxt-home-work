@@ -45,12 +45,22 @@
       <h1>Get the latest tech news!</h1>
     </section>
 
-    <section class="featured-posts"></section>
+    <section class="featured-posts">
+      <PostsPreview />
+
+      <PostsPreview />
+    </section>
   </div>
 </template>
 
 <script>
+import PostsPreview from '@/components/Posts/PostPreview';
+
 export default {
   name: 'page-index',
+
+  components: {
+    PostsPreview,
+  },
 };
 </script>
