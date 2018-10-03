@@ -46,9 +46,12 @@
     </section>
 
     <section class="featured-posts">
-      <PostsPreview />
-
-      <PostsPreview />
+      <PostsPreview
+        id="1"
+        title="Hello there!"
+        preview-text="This my first post!"
+        thumbnail="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&w=1000&q=80"
+      />
     </section>
   </div>
 </template>
