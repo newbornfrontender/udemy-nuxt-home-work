@@ -6,6 +6,7 @@
   box-sizing: border-box;
   background-position: center;
   background-size: cover;
+  background-image: url(~assets/img/intro-bg.jpg);
 }
 
 .intro h1 {
