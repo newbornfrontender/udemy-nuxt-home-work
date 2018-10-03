@@ -1,3 +1,10 @@
+<style scoped>
+.about-page {
+  text-align: center;
+  padding: 30px;
+}
+</style>
+
 <template>
   <div class="about-page">
     <h1>This is my absolutely fantastic "About Me" Page!</h1>
@@ -9,9 +16,8 @@
   </div>
 </template>
 
-<style scoped>
-.about-page {
-  text-align: center;
-  padding: 30px;
-}
-</style>
+<script>
+export default {
+  name: 'page-about',
+};
+</script>
