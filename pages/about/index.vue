@@ -1,9 +1,8 @@
-<style scoped>
-.about-page {
-  text-align: center;
-  padding: 30px;
-}
-</style>
+<script>
+export default {
+  name: 'page-about',
+};
+</script>
 
 <template>
   <div class="about-page">
@@ -16,8 +15,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'page-about',
-};
-</script>
+<style scoped>
+.about-page {
+  text-align: center;
+  padding: 30px;
+}
+</style>

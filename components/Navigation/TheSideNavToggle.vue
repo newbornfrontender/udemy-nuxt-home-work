@@ -1,3 +1,15 @@
+<template>
+  <div
+    class="drawer-toggle"
+    role="button"
+    v-on:click="$emit('toggle')"
+  >
+    <div class="bar" />
+    <div class="bar" />
+    <div class="bar" />
+  </div>
+</template>
+
 <style scoped>
 .drawer-toggle {
   display: flex;
@@ -20,15 +32,3 @@
   background-color: white;
 }
 </style>
-
-<template>
-  <div
-    class="drawer-toggle"
-    role="button"
-    v-on:click="$emit('toggle')"
-  >
-    <div class="bar" />
-    <div class="bar" />
-    <div class="bar" />
-  </div>
-</template>

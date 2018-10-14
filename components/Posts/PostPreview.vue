@@ -1,3 +1,51 @@
+<script>
+export default {
+  name: 'PostPreview',
+
+  props: {
+    id: {
+      type: String,
+      required: true,
+    },
+
+    title: {
+      type: String,
+      required: true,
+    },
+
+    previewText: {
+      type: String,
+      required: true,
+    },
+
+    thumbnail: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
+
+<template>
+  <nuxt-link
+    class="post-preview"
+    v-bind:to="`/posts/${id}`"
+  >
+    <article>
+      <div
+        class="post-thumbnail"
+        v-bind:style="{ backgroundImage: `url(${thumbnail})` }"
+      />
+
+      <div class="post-content">
+        <h1>{{ title }}</h1>
+
+        <p>{{ previewText }}</p>
+      </div>
+    </article>
+  </nuxt-link>
+</template>
+
 <style scoped>
 .post-preview {
   border: 1px solid #ccc;
@@ -35,51 +83,3 @@ a:active .post-content {
   background-color: #ccc;
 }
 </style>
-
-<template>
-  <nuxt-link
-    class="post-preview"
-    v-bind:to="`/posts/${id}`"
-  >
-    <article>
-      <div
-        class="post-thumbnail"
-        v-bind:style="{ backgroundImage: `url(${thumbnail})` }"
-      />
-
-      <div class="post-content">
-        <h1>{{ title }}</h1>
-
-        <p>{{ previewText }}</p>
-      </div>
-    </article>
-  </nuxt-link>
-</template>
-
-<script>
-export default {
-  name: 'PostPreview',
-
-  props: {
-    id: {
-      type: String,
-      required: true,
-    },
-
-    title: {
-      type: String,
-      required: true,
-    },
-
-    previewText: {
-      type: String,
-      required: true,
-    },
-
-    thumbnail: {
-      type: String,
-      required: true,
-    },
-  },
-};
-</script>
