@@ -16,7 +16,7 @@ export default {
     <div
       v-if="show"
       class="sidenav-backdrop"
-      v-on:click="$emit('close')"
+      @click="$emit('close')"
     />
 
     <transition name="slide-side">
@@ -26,7 +26,7 @@ export default {
       >
         <ul
           class="nav-list"
-          v-on:click="$emit('close')"
+          @click="$emit('close')"
         >
           <li class="nav-item"><nuxt-link to="/posts">Blog</nuxt-link></li>
           <li class="nav-item"><nuxt-link to="/about">About</nuxt-link></li>

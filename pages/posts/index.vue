@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'page-posts',
+  name: 'PagePosts',
 };
 </script>
 

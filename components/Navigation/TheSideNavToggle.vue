@@ -2,7 +2,7 @@
   <div
     class="drawer-toggle"
     role="button"
-    v-on:click="$emit('toggle')"
+    @click="$emit('toggle')"
   >
     <div class="bar" />
     <div class="bar" />

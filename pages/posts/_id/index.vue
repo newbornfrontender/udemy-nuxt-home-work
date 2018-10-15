@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'page-posts-id',
+  name: 'PagePostsId',
 };
 </script>
 
@@ -44,6 +44,7 @@ export default {
 
 .post-title {
   margin: 0;
+  text-align: center;
 }
 
 .post-details {

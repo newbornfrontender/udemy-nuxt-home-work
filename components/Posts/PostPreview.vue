@@ -29,12 +29,12 @@ export default {
 <template>
   <nuxt-link
     class="post-preview"
-    v-bind:to="`/posts/${id}`"
+    :to="`/posts/${id}`"
   >
     <article>
       <div
         class="post-thumbnail"
-        v-bind:style="{ backgroundImage: `url(${thumbnail})` }"
+        :style="{ backgroundImage: `url(${thumbnail})` }"
       />
 
       <div class="post-content">

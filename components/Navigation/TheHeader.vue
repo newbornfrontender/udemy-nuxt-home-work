@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="header-container">
     <header class="the-header">
-      <TheSideNavToggle v-on:toggle="$emit('sidenavToggle')" />
+      <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
       <div class="logo">
         <nuxt-link to="/">WD BLOG</nuxt-link>
       </div>

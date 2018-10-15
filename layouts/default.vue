@@ -3,7 +3,7 @@ import TheHeader from '@/components/Navigation/TheHeader';
 import TheSidenav from '@/components/Navigation/TheSidenav';
 
 export default {
-  name: 'layout-default',
+  name: 'LayoutDefault',
 
   components: {
     TheHeader,
@@ -18,11 +18,11 @@ export default {
 
 <template>
   <div>
-    <TheHeader v-on:sidenavToggle="displaySidenav = !displaySidenav" />
+    <TheHeader @sidenavToggle="displaySidenav = !displaySidenav" />
 
     <TheSidenav
-      v-bind:show="displaySidenav"
-      v-on:close="displaySidenav = false"
+      :show="displaySidenav"
+      @close="displaySidenav = false"
     />
 
     <nuxt />

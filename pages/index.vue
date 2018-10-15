@@ -2,7 +2,7 @@
 import PostsPreview from '@/components/Posts/PostPreview';
 
 export default {
-  name: 'page-index',
+  name: 'PageIndex',
 
   components: {
     PostsPreview,
