@@ -13,11 +13,5 @@
   ],
   "plugins": [
     "vue"
-  ],
-  "rules": {
-    "no-extra-semi": "off",
-    "vue/v-bind-style": "off",
-    "vue/v-on-style": "off",
-    "vue/name-property-casing": "off"
-  }
+  ]
 }
